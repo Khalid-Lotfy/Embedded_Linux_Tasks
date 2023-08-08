@@ -1,6 +1,6 @@
 #test whether a passed letter is vowel or not
 
-vowel_letters=['a','e','i','o','u','A','I','O','U','E']
+vowel_letters="aioueAIOUE"
 
 letter=input("enter your letter:")
 
