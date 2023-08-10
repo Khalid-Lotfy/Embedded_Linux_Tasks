@@ -4,4 +4,7 @@ vowel_letters="aioueAIOUE"
 
 letter=input("enter your letter:")
 
-print("your letter is a vowel") if letter in vowel_letters else print("your letter is not a vowel")
+if letter in vowel_letters:
+    print("your letter is a vowel")   
+else:
+    print("your letter is not a vowel")
